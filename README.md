@@ -8,21 +8,17 @@ This sample demonstrates:
 
 ## Project setup
 
-Use `yarn` or `npm` to install the project dependencies:
+Use `npm` or `yarn` to install the project dependencies:
 
 ```bash
-# Using npm..
 npm install
-
-# Using yarn..
-yarn install
 ```
 
 ### Configuration
 
 The project needs to be configured with your Auth0 domain and client ID in order for the authentication flow to work.
 
-To do this, first copy `src/auth_config.json.example` into a new file in the same folder called `src/auth_config.json`, and replace the values with your own Auth0 application credentials:
+To do this, create a new file `src/auth_config.json`, and replace the values with your own Auth0 application credentials:
 
 ```json
 {
